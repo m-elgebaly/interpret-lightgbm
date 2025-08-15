@@ -19,8 +19,8 @@ setup(
         'lightgbm>=4.0',
         'shap>=0.47',
         'matplotlib>=3.5',
-        'tqdm>=4.65',
-        'ipython>=8.0'
+        #'tqdm>=4.65',
+        #'ipython>=8.0'
     ],
     python_requires='>=3.6',
 )
