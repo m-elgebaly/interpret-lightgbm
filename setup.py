@@ -4,7 +4,7 @@ from src.interpret_lightgbm.__init__ import __version__
 setup(
     name='interpret_lightgbm',
     version=__version__,
-    author='Your Name',
+    author='Mohamed ElGebaly',
     author_email='mohamedmxo7@gmail.com',
     description='Interpret-lightgbm turns powerful LightGBM models into transparent, explainable predictors.',
     long_description=open('README.md').read(),
