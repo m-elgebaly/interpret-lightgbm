@@ -12,10 +12,10 @@ setup(
     packages=find_packages(where='src'),  # Look for packages inside the 'src' folder
     package_dir={'': 'src'},             # Map the package root to the 'src' directory
     install_requires=[
-        'numpy>=1.23',
+        'numpy>=1.23,<2.3',
         'pandas>=1.4',
         'scipy>=1.10',
-        'scikit-learn>=1.2',
+        'scikit-learn>=1.7',
         'lightgbm>=4.0',
         'shap>=0.47',
         'matplotlib>=3.5',
