@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interpret_lightgbm"
+version = "0.1.0"
+description = "Interpretability-first LightGBM models via progressive tree depths and exact contribution tracking"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{ name = "Mohamed Elgebaly" }]
+keywords = ["lightgbm", "interpretability", "explainability", "feature importance", "boosting"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "lightgbm>=4.0.0",
+    "numpy>=1.23.0",
+    "pandas>=1.5.0",
+    "scikit-learn>=1.2.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/m-elgebaly/interpret-lightgbm"
+Issues = "https://github.com/m-elgebaly/interpret-lightgbm/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["interpret_lightgbm*"]
