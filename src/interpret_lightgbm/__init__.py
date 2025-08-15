@@ -2,8 +2,8 @@
 
 Public API exposes progressive LightGBM models and interpretation utilities.
 """
-from .model import ProgressiveLGBMRegressor, ProgressiveLGBMClassifier
-from .interpret import (
+from interpret_lightgbm.model import ProgressiveLGBMRegressor, ProgressiveLGBMClassifier
+from interpret_lightgbm.interpret import (
     interpret_prediction
 )
 
