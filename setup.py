@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='interpret_lightgbm',
-    version='0.1.0',
+    version='0.2.0',
     author='Your Name',
     author_email='mohamedmxo7@gmail.com',
     description='Interpret-lightgbm turns powerful LightGBM models into transparent, explainable predictors.',
