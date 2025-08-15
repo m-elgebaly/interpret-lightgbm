@@ -87,7 +87,7 @@ print("Predictions on 5 new samples:\n", predictions)
 See a full runnable example in [`examples/demo.py`](examples/demo.py) — it generates synthetic data for both regression and classification.
 
 ## API Overview
-- `ProgressiveLGBMRegressor(depths=(1,2,3), n_estimators_per_stage=50, learning_rate=0.05, **lgb_params)`  
+- `ProgressiveLGBMRegressor()`  
   Train staged LightGBM regressors; `predict` sums stage outputs.
 - `ProgressiveLGBMClassifier(...)`  
   Same idea for classification with `predict_proba` and `predict`.
