@@ -91,9 +91,8 @@ See a full runnable example in [`examples/demo.py`](examples/demo.py) — it gen
   Train staged LightGBM regressors; `predict` sums stage outputs.
 - `ProgressiveLGBMClassifier(...)`  
   Same idea for classification with `predict_proba` and `predict`.
-- `decompose_prediction(model, X)` → dict with `bias`, `main`, `pairwise`, `higher`
-- `feature_importance_progression(model)` → DataFrame of importances per stage
-- Plotting: `plot_feature_importance_progression`, `plot_contribution_breakdown`
+- `get_feature_contributions(X_test, model_depth)` → DataFrame of with ontribution `bias`, `main`, `pairwise`, `higher`
+- Plotting: `plot_contributions`, `plot_feature_importance_progression`
 
 ## Roadmap
 - Multicollinearity-aware attribution
