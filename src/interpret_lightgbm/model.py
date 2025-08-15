@@ -9,7 +9,7 @@ import lightgbm as lgb
 from sklearn.base import BaseEstimator, RegressorMixin, ClassifierMixin
 from sklearn.utils.validation import check_is_fitted
 
-from .utils import *
+from interpret_lightgbm.utils import *
 
 # --- NEW: Configuration Dataclass ---
 @dataclass
