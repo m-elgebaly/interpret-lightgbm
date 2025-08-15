@@ -84,6 +84,11 @@ print("\n--- Making Predictions ---")
 print("Predictions on 5 new samples:\n", predictions)
 ```
 
+## Explore and Visualize Feature contribution
+Example:
+<img width="414" height="430" alt="image" src="https://github.com/user-attachments/assets/f59aad0a-eed2-4ee5-a2a1-d0055d3f786f" />
+
+
 See a full runnable example in [`examples/demo.py`](examples/demo.py) — it generates synthetic data for both regression and classification.
 
 ## API Overview
