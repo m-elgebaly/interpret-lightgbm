@@ -23,6 +23,8 @@ You see how each feature **moves the prediction away from the mean** and when in
 
 ## Installation
 ```bash
+pip install https://github.com/m-elgebaly/interpret-lightgbm.git
+#OR
 git clone https://github.com/m-elgebaly/interpret-lightgbm.git
 cd interpret-lightgbm
 pip install -e .
